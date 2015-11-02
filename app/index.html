@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Math</title>
+</head>
+<body>
+  <h1>Math application</h1>
+  <h2>Total: <span id="total"></span></h2>
+  <form id="addFrom">
+    <input id="numberField" type="text" size="3" />
+    <button id="addButton" type="submit" disabled>Add</button>
+  </form>
+  <p>
+    <button id="addRandomButton" type="button">Add Random Number</button>
+  </p>
+  <script src="bower-components/jquery/dist/jquery.js"></script>
+  <script src="bower-components/loglevel/dist/loglevel.js"></script>
+
+  <script src="scripts/services/tools.js"></script>
+  <script src="scripts/services/math.js"></script>
+  <script src="scripts/controllers/math.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+# ----------------------------
+# ---      GIT ignore      ---
+# ----------------------------
+
+# Untracked general purpose files:
+.project
+.sass-cache
+.settings
+.jscsrc
+*.sublime-*
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.bck
+*.tmp
+*.orig
+/npm-debug.log
+
+# Untracked tmp files
+# For Mac
+.DS_Store
+
+# Untracked general purpose directories:
+.idea
+lib-cov
+pids
+logs
+doc
+jsdoc
+publish
+dist
+target
+tmp
+temp
+/node_modules
+
+# Untracked application files and directories:
+/app/bower-components
+test/results
